@@ -333,7 +333,7 @@ export default function CandidateDashboardPage() {
             </div>
             <p className="text-white/70 text-xs mb-4 leading-relaxed">
               {pct < 100
-                ? `Complete your profile (${pct}% done) to unlock AI-powered job recommendations.`
+                ? `Complete your profile (${pct}% done) to unlock skill-based job recommendations.`
                 : 'Your profile is complete! Browse recommended jobs tailored to your skills.'}
             </p>
             <Link href={pct < 100 ? ROUTES.CANDIDATE.PROFILE : '/candidate/jobs'}
